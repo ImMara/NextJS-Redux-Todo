@@ -33,7 +33,7 @@ export const setFilter = filter => {
     }
 }
 
-export const toggledTodo = index =>{
+export const toggleTodo = index =>{
     return {
         type: TOGGLE_TODO,
         index
